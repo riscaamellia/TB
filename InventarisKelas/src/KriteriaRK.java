@@ -72,7 +72,7 @@ public class KriteriaRK {
             System.out.println("SESUAI");
         }
         else if (jml_ppntls <3){
-            System.out.println("TIDAK SESUAI")
+            System.out.println("TIDAK SESUAI");
         }
     }
 
@@ -96,6 +96,17 @@ public class KriteriaRK {
         luasrk = panjangrk*lebarrk;
         System.out.println("Luas Ruang Kelas = ");
         return luasrk;
+    }
+    double hitungrasioluas (double luasrk, int jml_kursi){
+        rasioluas = luasrk / jml_kursi;
+        if(rasioluas >= 0.5){
+            System.out.println("SESUAI");
+        }
+        else if (rasioluas <= 0.5){
+            System.out.println("TIDAK SESUAI");
+        }
+        System.out.println("rasio luas = "+rasioluas);
+        return rasioluas;
     }
     
 }
