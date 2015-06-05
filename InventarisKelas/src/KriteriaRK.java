@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 public class KriteriaRK {
     private int panjangrk;
     private int lebarrk;
