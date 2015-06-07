@@ -1,5 +1,5 @@
 
-public class IdentitasRK {
+public abstract class IdentitasRK {
     private String nama_ruang;
     private String lokasi_ruang;
     private String fakultas;
@@ -28,4 +28,5 @@ public class IdentitasRK {
         this.fakultas = fakultas;
     }
 
+    abstract void analisisIDrk();
 }

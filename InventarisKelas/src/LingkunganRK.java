@@ -10,7 +10,7 @@ public class LingkunganRK {
         return kondisilantai;
     }
 
-    public void setKondisilantai(String kondisilantai) {
+    public void setKondisilantai(String kondisilantai, Object KL) {
         this.kondisilantai = kondisilantai;
         if ("Bersih".equals(KL))
             System.out.println("SESUAI");
@@ -24,7 +24,7 @@ public class LingkunganRK {
         return kondisidinding;
     }
 
-    public void setKondisidinding(String kondisidinding) {
+    public void setKondisidinding(String kondisidinding, Object KD) {
         this.kondisidinding = kondisidinding;
         if ("Bersih".equals(KD))
             System.out.println("SESUAI");
@@ -38,7 +38,7 @@ public class LingkunganRK {
         return kondisiatap;
     }
 
-    public void setKondisiatap(String kondisiatap) {
+    public void setKondisiatap(String kondisiatap, Object KA) {
         this.kondisiatap = kondisiatap;
         if ("Baik".equals(KA))
             System.out.println("SESUAI");
@@ -52,7 +52,7 @@ public class LingkunganRK {
         return kondisipintu;
     }
 
-    public void setKondisipintu(String kondisipintu) {
+    public void setKondisipintu(String kondisipintu, Object KP) {
         this.kondisipintu = kondisipintu;
         if ("Berfungsi".equals(KP))
             System.out.println("SESUAI");
@@ -67,7 +67,7 @@ public class LingkunganRK {
         return kondisijendela;
     }
 
-    public void setKondisijendela(String kondisijendela) {
+    public void setKondisijendela(String kondisijendela, Object KJ) {
         this.kondisijendela = kondisijendela;
         if ("Berfungsi".equals(KJ))
             System.out.println("SESUAI");
